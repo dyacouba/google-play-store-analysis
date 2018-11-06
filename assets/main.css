@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(250, 250, 250);
+    padding: 10px 50px 30px 50px;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#slider_container {
+    display: block;
+    /* width: 650px; */
+    margin-bottom: 10px;
+}
+#nb_app_categories_container, #categories_ratings_zoomed_container, #pie_categories_ratings_container, #pie_type_count_container, #app_list_container {
+    display: inline-block;
+    background-color: white;
+    /*
+    margin-right: 30px;*/
+    margin-bottom: 36px;
+    
+    padding: 10px 30px 18px 30px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 4px 4px 2px #aaaaaa;
+}
+
+
+#pie_categories_ratings_container, #pie_type_count_container {
+    margin-bottom: 36px;
+}
+
+
+#category_dropdown_label {
+    
+}
+
+#category_dropdown {
+    display: block;
+    /*margin-right: 30px;*/
+    margin-bottom: 10px;
+}
